@@ -45,10 +45,10 @@ Given the update:
 
 The output would be:
 
-  F123 Landed 104
-  F222 Awaiting-Takeoff 200
-  F324 In-Flight 0
-  F551 Landed 45
+  F123 Landed 104  
+  F222 Awaiting-Takeoff 200  
+  F324 In-Flight 0  
+  F551 Landed 45  
 
 Or given the removal of an event:
 
@@ -56,10 +56,10 @@ Or given the removal of an event:
 
 The output would be:
 
-  F123 Landed 104
-  F222 Awaiting-Takeoff 200
-  F324 In-Flight 0
-  F551 In-Flight 345 // KL: Why Inf-Flight, it should be reverted to Take-Off
+  F123 Landed 104  
+  F222 Awaiting-Takeoff 200  
+  F324 In-Flight 0  
+  F551 In-Flight 345 // KL: Why Inf-Flight, it should be reverted to Take-Off  
 
 Interacting with the program via the command line or a repl is sufficient for
 this task.
